@@ -5,3 +5,5 @@ $(document).ready(function(){
   function moreBtn(){
       location.href='about.html';
     }
+
+  

@@ -19,7 +19,7 @@ body {
   /*--- navigation bar ---*/
   
   .navbar {
-    background:#6a93e0;
+    background:#5587e2;
   }
   
   .nav-link,
@@ -28,9 +28,9 @@ body {
     cursor: pointer;
   }
   
-  .nav-link {
-    margin-right: 1em !important;
-  }
+  /* .nav-link {
+    /* margin-right: 1em !important; */
+  /* } */ 
   
   .nav-link:hover {
     color: #000;
@@ -43,14 +43,26 @@ body {
 
   .overlay {
     position: absolute;
-    min-height:94.5%;
+    min-height:94.95%;
     min-width: 100%;
     left: 0;
-    top: 100;
+    /* top: 100; */
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .overlay-container{
+    position: absolute;
+    min-width: 100%;
+    left: 0;
+    /* top: 100; */
     background: rgba(0, 0, 0, 0.3);
   }
   .container-fluid{
     min-width: 100%;
+    background-image: url(images/header-background.jpeg);
+    background-size: cover;
+
+
   }
 
   .description {
@@ -123,7 +135,7 @@ body {
       left: 0;
       padding: 0 15px;
       position: absolute;
-      top: 10%;
+      /* top: 10%; */
       transform: none;
       text-align: center;
     }
@@ -151,8 +163,6 @@ body {
     
   
   .doing{
-    background-image: url(images/guam.jpg);
-    background-size: cover;
     min-width: 100%;
     position: relative;
     padding: 5%;
@@ -161,9 +171,6 @@ body {
   }
 
   .doing h2 {
-    color: #000000;
-    text-align: left;
-    font-weight: bold;
     left: 30%;
   }
 
@@ -177,7 +184,7 @@ body {
   border: 3px solid #bdc3c7;
   line-height: 1;
   padding: 5px 10px;
-  background: #fff;
+  /* background: #fff; */
   display: inline-block;
   z-index: 10;
   position: relative;
@@ -196,4 +203,12 @@ body {
 
 .fa-quote-left, .fa-quote-right {
     color: #e89a35;
+}
+
+.row-no-gutters, h6{
+  text-align: center;
+}
+
+.col-xs-6.col-md-6{
+  padding-top: 5%;
 }
