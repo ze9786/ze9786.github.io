@@ -1,9 +1,9 @@
-.header {
+/* .header {
     background-image: url('images/header-background.jpeg');
     background-size: cover;
     background-position: center;
     position: relative;
-  }
+  } */
   html {
     font-family: serif;
     -ms-text-size-adjust: 100%;
@@ -75,10 +75,10 @@ body {
   }
   .container-fluid{
     min-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
     background-image: url(images/header-background.jpeg);
     background-size: cover;
-
-
   }
 
   .description {
