@@ -13,7 +13,7 @@
 
 body {
     padding: 0;
-    background: #f2f6e9;
+    background: #e1e8f0;
 }
 .about-body{
   padding:3%;
@@ -144,8 +144,8 @@ body {
   }
 
   .page-footer {
-    background-color: #222;
-    color: #ccc;
+    background-color: #5ab9ea8a;
+    color: #666;
     padding: 10px 0 10px;
   }
   
@@ -176,6 +176,20 @@ body {
     .features {
       margin: 0;
     }
+
+    .customImg{
+      width: 30%;
+      align-content: center;
+    }
+    .col{
+      padding-bottom: 5%;
+      align-items: center;
+    }
+  
+  }
+  .customImg{
+    width: 50%;
+    align-content: center;
   }
 
     .container-fluid.doing {
