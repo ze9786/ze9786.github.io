@@ -79,7 +79,8 @@ body {
     min-width: 100%;
     padding-right: 0px;
     padding-left: 0px;
-    background-image: url(images/ustphoto.jpg);
+    align-content: center;
+    background-image: url(images/P1230425.JPG);
     background-size: cover;
   }
 
