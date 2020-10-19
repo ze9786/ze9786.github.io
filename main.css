@@ -158,6 +158,12 @@ body {
     padding: 10px 0;
   }
 
+  @media only screen and (min-width:768px){
+    .contact{
+      padding-left: 20%;
+    }
+ }
+
   @media (max-width:1000px) {
 
     .description {
@@ -256,6 +262,7 @@ body {
 
 .col-xs-6.col-md-6{
   padding-top: 5%;
+  padding-left: 0%;
 }
 
 @media screen and (max-width:480px){
