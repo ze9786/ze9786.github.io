@@ -150,6 +150,7 @@ body {
     background-color: #5ab9ea8a;
     color: #666;
     padding: 10px 0 10px;
+    align-content: center;
   }
   
   .footer-copyright {
