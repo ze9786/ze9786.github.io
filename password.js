@@ -1,4 +1,4 @@
-var password = prompt("Enter the password").;
+var password = prompt("Enter the password");
         if (password=="9786") {
             //location = "media.html"
             window.location.href="https://zelinato.com/about.html";
