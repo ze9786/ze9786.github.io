@@ -46,6 +46,10 @@ body {
     color: #fff;
     cursor: pointer;
   }
+
+  .nav-link:active{
+    color: #123570;
+  }
   
   /* .nav-link {
     /* margin-right: 1em !important; */

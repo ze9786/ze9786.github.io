@@ -9,4 +9,7 @@ $(document).ready(function(){
       location.href='about.html';
     }
 
-  
+
+  function goToHome(){
+      location.href="index.html";
+  }
