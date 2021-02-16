@@ -37,7 +37,7 @@ body {
   /*--- navigation bar ---*/
   
   .navbar {
-    background:#5587e266;
+    background:#5586e2c7;
     
   }
   
@@ -201,6 +201,7 @@ body {
       padding-bottom: 5%;
       align-items: center;
     }
+
   
   }
   .customImg{
@@ -274,11 +275,18 @@ body {
 @media screen and (max-width:480px){
 .row-card{
   /* aspect-ratio: 50%; */
-  padding-left: 15%;
-  width: 99%;
+  width: 50%;
+}
+.breadcrumb{
+  padding-top: 10%;
 }
 }
 
 .row-card{
   display:flex;
+}
+
+.breadcrumb{
+  background-color: #aa000000;
+  padding-left: 25px; margin-top: 5%;
 }
