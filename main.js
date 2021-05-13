@@ -13,3 +13,7 @@ $(document).ready(function(){
   function goToHome(){
       location.href="index.html";
   }
+
+  function goToWork(){
+    location.href="work.html";
+}

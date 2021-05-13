@@ -34,6 +34,10 @@ body {
 }
 
 
+.job_duties{
+  font-size: 14px;
+}
+
   /*--- navigation bar ---*/
   
   .navbar {
@@ -161,6 +165,10 @@ body {
     color: #666;
     padding: 10px 0;
   }
+  h3{
+    padding-left: 25px; 
+    padding-top: 3%;
+  }
 
   @media only screen and (min-width:768px){
     .contact{
@@ -195,7 +203,7 @@ body {
 
     .customImg{
       width: 30%;
-      align-content: center;
+      align-items: center;
     }
     .col{
       padding-bottom: 5%;
@@ -204,10 +212,7 @@ body {
 
   
   }
-  .customImg{
-    width: 50%;
-    align-content: center;
-  }
+
 
     .container-fluid.doing {
       left: 0;
