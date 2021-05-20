@@ -165,9 +165,7 @@ body {
     color: #666;
     padding: 10px 0;
   }
-  h3{
-    padding-left: 25px; 
-  }
+
   .customImg{
     margin-left: 40%;
     }
@@ -179,7 +177,9 @@ body {
  }
 
   @media (max-width:1000px) {
-
+    h3{
+      padding-left: 25px; 
+    }
     .description {
       left: 0;
       padding-left: 3%;
