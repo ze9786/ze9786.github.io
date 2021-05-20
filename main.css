@@ -167,8 +167,10 @@ body {
   }
   h3{
     padding-left: 25px; 
-    padding-top: 3%;
   }
+  .customImg{
+    margin-left: 40%;
+    }
 
   @media only screen and (min-width:768px){
     .contact{
@@ -201,10 +203,7 @@ body {
       margin: 0;
     }
 
-    .customImg{
-      width: 30%;
-      align-items: center;
-    }
+   
     .col{
       padding-bottom: 5%;
       align-items: center;
@@ -279,8 +278,8 @@ body {
 
 @media screen and (max-width:480px){
 .row-card{
-  /* aspect-ratio: 50%; */
-  width: 50%;
+  aspect-ratio: 50%;
+  align-content: center;
 }
 .breadcrumb{
   padding-top: 10%;
@@ -292,6 +291,6 @@ body {
 }
 
 .breadcrumb{
-  background-color: #aa000000;
-  padding-left: 25px; margin-top: 5%;
+  background-color: #bb000000;
+  padding-left: 10px; margin-top: 5%;
 }
